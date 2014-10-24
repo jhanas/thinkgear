@@ -148,4 +148,25 @@ This unsigned one-byte integer value describes how poor the signal measured by t
 Using the Mindwave can be a little tricky at first. You must position the electrode that goes on your forehead (FP1) correctly. Just as important is the clip on your ear lobe which is an essential part of the noise cancellation that is required for it to work.
 
 
+##Test
+
+```
+make test
+```
+
+##Code Coverage
+
+```
+make cover
+```
+
+
+##Debug
+
+In order to run the examples for this module in debug mode, we use debug.js internally.
+
+```
+DEBUG=thinkgear node example
+```
+
 .
