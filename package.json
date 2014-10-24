@@ -1,0 +1,30 @@
+{
+  "name": "thinkgear",
+  "description": "A node.js client for the ThinkGear Socket Protocol supporting Neurosky EEG headsets",
+  "author": "Andrew Keig <andrew.keig@gmail.com>",
+  "version": "0.0.1",
+  "homepage": "https://github.com/open-minded/thinkgear",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/open-minded/thinkgear/blob/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/open-minded/thinkgear.git"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.2",
+    "jshint": "^2.5.6",
+    "tap": "^0.4.13",
+    "tap-spec": "^1.0.1"
+  },
+  "keywords": [
+    "thinkgear",
+    "neurosky",
+    "eeg",
+    "mindwave"
+  ],
+  "dependencies": {
+    "debug": "^2.1.0"
+  }
+}
